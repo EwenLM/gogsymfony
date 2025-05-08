@@ -34,3 +34,7 @@ mysql:
 phpshell:
 	# Start bash inside PHP container
 	@docker compose exec php-fpm bash
+
+watch:
+	# Start watching tailwindcss
+	@npm run watch
