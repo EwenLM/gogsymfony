@@ -15,13 +15,16 @@
 
     </head>
     <body>
-        <h1 class="text-3xl font-bold underline text-red-500 bg-amber-200">Lorem ipsuazeaeazeazem, dolor sit amet consectetur adipisicing elit. Pariatur, repudiandae.</h1>
-        {% block body %}
-        {% block header %}
+        <h2 class="text-3xl font-bold underline text-red-500 bg-amber-200">Lorem ipsuazeaeazeazem, dolor sit amet consectetur adipisicing elit. Pariatur, repudiandae.</h2>
+       
             <header>
-                {% include "partials/nav.html.twig" %}
+                {% include "/partials/nav.html.twig" %}
             </header>
-        {% endblock %}
-        {% endblock %}
+       
+            
+            <main>
+                {% block main %}{% endblock main%}
+            </main>
+
     </body>
 </html>
