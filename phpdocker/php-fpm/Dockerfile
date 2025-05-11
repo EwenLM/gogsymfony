@@ -1,6 +1,6 @@
 FROM phpdockerio/php:8.2-fpm
 WORKDIR "/application"
-ENV NODE_LTS=16
+ENV NODE_LTS=18
 
 # Nodejs
 RUN curl -sSL --fail https://deb.nodesource.com/setup_${NODE_LTS}.x | bash -
